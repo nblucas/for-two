@@ -183,7 +183,6 @@ body {
 }
 
 .next-button {
-	align-self: flex-end;
 	border: none;
 	border-radius: 0.5rem;
 	font-size: 3rem;
@@ -194,24 +193,21 @@ body {
 }
 
 .return-button {
-	align-self: flex-end;
-	justify-self: flex-end;
 	border: none;
 	border-radius: 0.5rem;
-	font-size: 4rem;
+	font-size: 2.5rem;
 	background-color: transparent;
 	font-family: 'Montserrat', sans-serif;
 	color: rgb(255, 255, 255);
 	font-weight: 600;
 }
 
-.next-button:hover {
+.next-button:hover, .return-button:hover {
 	color: blueviolet;
 }
 
-.next-button:active {
+.next-button:active, .return-button:active {
 	color: rgb(255, 255, 255);
-	font-size: 5.2rem;
 }
 
 
